@@ -1,0 +1,46 @@
+.add-clothe-form{
+    width: 80%;
+    margin: 20px;
+    border: 5px solid whitesmoke;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+ 
+}
+
+#inputBar{
+    width: 60%;
+    height: 100px;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.clothe-type-topdown-list{
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.clothe-type-topdown-list option {
+    background-color: #313336;
+    font-size: 24px;
+    color: whitesmoke;
+}
+.clothe-type-topdown-list select {
+    margin: 10px;
+    background-color: #313336;
+    font-size: 24px;
+    color: whitesmoke;
+}
+#inputSubmitButton {
+    width: 350px;
+    height: 50px;
+    font-size: 30px;
+    font-family: sans-serif;
+}

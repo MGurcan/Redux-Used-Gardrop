@@ -1,8 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+
+
+import clothesReducer from '../features/GardropFeatures/ClothesSlice'
+import loginPageReducer from '../features/Pages/PageSlicers/LoginPageSlice';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    clothes: clothesReducer,
+    userInfo: loginPageReducer
   },
 });

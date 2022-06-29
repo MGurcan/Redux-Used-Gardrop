@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#313336;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background: #1A1E23;
+    background: whitesmoke;
+    height: 200px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+nav h3{
+    color:#1A1E23;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin: 5px;
+}
+
+h1{
+    color: whitesmoke;
+}
